@@ -53,7 +53,7 @@ Authenticate to SMTP server with `:user` and `:pass`.
     {:code 0, :error :SUCCESS, :message "message sent"}
     postal.core> 
 
-Authenticate to gmail SMTP server with `:user` `:pass` `:port`
+Authenticate to gmail SMTP server with `:user` and `:pass` and `:port`.
 
     (postal.core/send-message #^{:host "smtp.gmail.com"
                                                     :user "jsmith@gmail.com"
