@@ -56,9 +56,9 @@ Authenticate to SMTP server with `:user` and `:pass`.
 Authenticate to gmail SMTP server with `:user` and `:pass` and `:port`.
 
     (postal.core/send-message #^{:host "smtp.gmail.com"
-                                                    :user "jsmith@gmail.com"
-                                                    :pass "sekret!!1"
-                                                    :port 587}
+                              :user "jsmith@gmail.com"
+                              :pass "sekret!!1"
+                              :port 587}
                            {:from "me@gmail.com"
                             :to "foo@example.com"
                             :subject "Hi!"
